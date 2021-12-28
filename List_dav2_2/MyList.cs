@@ -38,6 +38,8 @@ namespace List_dav2_2
                     myDictionary[i] = myDictionary[i + 1];
                 }
 
+                myDictionary.Remove(MySize);
+
                 MySize--;
             }
         }
